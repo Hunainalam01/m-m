@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import lamp from '@/app/assets/images/lamp.png'
-import sofa from '@/app/assets/images/sofa.png'
+import lamp from '@/public/images/lamp.png'
+import sofa from '@/public/images/sofa.png'
 export default function Hero() {
   return (
     <div className='bg-[#F2F0FF] h-96 w-full px-24'>

@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import chair1 from '@/app/assets/images/chair1.png'
-import chair2 from '@/app/assets/images/chair2.png'
-import chair3 from '@/app/assets/images/chair3.png'
-import chair4 from '@/app/assets/images/chair4.png'
+import chair1 from '@/public/images/chair1.png'
+import chair2 from '@/public/images/chair2.png'
+import chair3 from '@/public/images/chair3.png'
+import chair4 from '@/public/images/chair4.png'
 export default function FeaturedProducts() {
   return (
     <div className='px-24'>

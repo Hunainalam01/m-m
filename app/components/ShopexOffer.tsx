@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import offer1 from '@/app/assets/images/offer1.png'
-import offer2 from '@/app/assets/images/offer2.png'
-import offer3 from '@/app/assets/images/offer3.png'
-import offer4 from '@/app/assets/images/offer4.png'
+import offer1 from '@/public/images/offer1.png'
+import offer2 from '@/public/images/offer2.png'
+import offer3 from '@/public/images/offer3.png'
+import offer4 from '@/public/images/offer4.png'
 export default function ShopexOffer() {
 
   return (

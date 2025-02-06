@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import accesories1 from "@/app/assets/images/accessories1.png"
-import accesories2 from "@/app/assets/images/accessories2.png"
-import accesories3 from "@/app/assets/images/accessories3.png"
-import accesories4 from "@/app/assets/images/accessories4.png"
-import accesories5 from "@/app/assets/images/accessories5.png"
+import accesories1 from "@/public/images/accessories1.png"
+import accesories2 from "@/public/images/accessories2.png"
+import accesories3 from "@/public/images/accessories3.png"
+import accesories4 from "@/public/images/accessories4.png"
+import accesories5 from "@/public/images/accessories5.png"
 export default function CartInformation() {
   return (
     <div className='bg-white px-24 pb-12'>

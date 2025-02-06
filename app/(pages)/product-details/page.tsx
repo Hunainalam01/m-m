@@ -1,10 +1,10 @@
 import Header from '@/app/components/Header'
 import Image from 'next/image'
 import React from 'react'
-import product1 from '@/app/assets/images/product1.png'
-import product2 from '@/app/assets/images/product2.png'
-import product3 from '@/app/assets/images/product3.png'
-import product4 from '@/app/assets/images/product4.png'
+import product1 from '@/public/images/product1.png'
+import product2 from '@/public/images/product2.png'
+import product3 from '@/public/images/product3.png'
+import product4 from '@/public/images/product4.png'
 export default function page() {
   return (
     <div>

@@ -2,7 +2,7 @@ import Button from '@/app/components/Button'
 import H2 from '@/app/components/H2'
 import Header from '@/app/components/Header'
 import React from 'react'
-import bannerImage from '@/app/assets/images/banner.png'
+import bannerImage from '@/public/images/banner.png'
 import Image from 'next/image'
 export default function page() {
   return (

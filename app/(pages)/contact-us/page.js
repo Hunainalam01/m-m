@@ -93,7 +93,7 @@ export default function page() {
             </div>
             </div>
             <div className='w-1/2 p-10'>
-            <Image src="/images/Group.png" 
+            <Image src="@/public/images/Group.png" 
                   alt="image" 
                   width={300}
                   height={300}

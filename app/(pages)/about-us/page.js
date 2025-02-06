@@ -14,7 +14,7 @@ export default function page() {
           <div className="flex items-center justify-center p-12 absolute">
             <div className="bg-blue-950 rounded-md">
       <Image
-      src="/images/about.png"
+      src="@/public/images/about.png"
       alt="image"
       width="500"
       height="500"

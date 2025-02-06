@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import chair1 from '@/app/assets/images/latestproducts1.png'
-import chair2 from '@/app/assets/images/latestproducts2.png'
-import chair3 from '@/app/assets/images/latestproducts3.png'
-import chair4 from '@/app/assets/images/latestproducts4.png'
-import chair5 from '@/app/assets/images/latestproducts5.png'
-import chair6 from '@/app/assets/images/latestproducts6.png'
+import chair1 from '@/public/images/latestproducts1.png'
+import chair2 from '@/public/images/latestproducts2.png'
+import chair3 from '@/public/images/latestproducts3.png'
+import chair4 from '@/public/images/latestproducts4.png'
+import chair5 from '@/public/images/latestproducts5.png'
+import chair6 from '@/public/images/latestproducts6.png'
 export default function LatestProducts() {
   return (
     <div className='px-24'>
