@@ -36,7 +36,7 @@ function Blog() {
                     </div>
                     {/* content */}
 
-                    <Link sr>Read More</Link>
+                    {/* <Link sr>Read More</Link> */}
                     <div>
 
                     </div>
