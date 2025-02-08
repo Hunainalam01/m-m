@@ -8,9 +8,9 @@ import Link from "next/link";
 
 function Blog() {
   return (
-    <div className="w-full h-auto border-2 border-black flex flex-col items-center p-10 ">
+    <div className="w-full h-auto flex flex-col items-center p-10 ">
       {/* one */}
-      <div className="py-6 border-2 border-black">
+      <div className="py-6">
         <Image
           className=" "
           src={blog4}
@@ -19,15 +19,15 @@ function Blog() {
           alt="banner-image"
         ></Image>
       </div>
-      {/* two */}
-      <div className="border-2 border-black w-full text-center text-3xl font-semibold p-6">
+      {/* heading */}
+      <div className=" w-full text-center text-3xl font-semibold p-6">
         <h1>Leatest Blog</h1>
       </div>
 
-      {/* three */}
-      <div className="w-full py-4 h-auto gap-4 flex flex-col items-center justify-center px-14 sm:grid sm:grid-cols-12 ">
+      {/* blogs */}
+      <div className="w-full lg:px-[10rem] md:px-[2rem] sm:px-1 py-4 h-auto gap-4 lg:gap-12 md:gap-3 sm:gap-2 flex flex-col items-center  justify-center px-14 sm:grid sm:grid-cols-9 flex-wrap">
         {/* blog-1 */}
-        <div className="sm:col-span-2 h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
+        <div className="sm:col-span-3 h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
           {/* image */}
           <div className="relative h-[45%]  ">
             <Image
@@ -69,7 +69,7 @@ function Blog() {
         </div>
 
         {/* blog-2 */}
-        <div className="h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
+        <div className="sm:col-span-3 h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
           {/* image */}
           <div className="relative h-[45%]  ">
             <Image
@@ -111,7 +111,7 @@ function Blog() {
         </div>
 
         {/* blog-3 */}
-        <div className="h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
+        <div className="sm:col-span-3 h-[400px] overflow-hidden rounded-md w-full hover:scale-[102%] transition-all shadow-[1px_3px_17px_-3px_rgba(0,_0,_0,_0.35)] hover:shadow-[4px_3px_10px_3px_rgba(0,_0,_0,_0.35)]">
           {/* image */}
           <div className="relative h-[45%]  ">
             <Image
