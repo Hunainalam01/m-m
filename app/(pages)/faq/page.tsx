@@ -2,7 +2,6 @@ import Button from '@/app/components/Button'
 import H2 from '@/app/components/H2'
 import Header from '@/app/components/Header'
 import React from 'react'
-import bannerImage from '@/public/images/banner.png'
 import Image from 'next/image'
 export default function page() {
   return (
@@ -65,8 +64,10 @@ export default function page() {
                 </div>
                </div>
                <Image
-               src={bannerImage}
+               src='/images/blog-4.png'
                alt="image"
+               width={500}
+               height={500}
                />
     </div>
   )
